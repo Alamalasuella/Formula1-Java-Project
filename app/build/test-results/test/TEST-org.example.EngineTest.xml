@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.EngineTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-06-27T07:42:44" hostname="ASUSDCSCARII" time="0.032">
+  <properties/>
+  <testcase name="mossePossibili()" classname="org.example.EngineTest" time="0.032">
+    <failure message="java.lang.IllegalArgumentException: bound must be positive" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: bound must be positive
+	at java.base/java.util.Random.nextInt(Random.java:557)
+	at org.example.Bot.move(Bot.java:47)
+	at org.example.Bot.turno(Bot.java:62)
+	at org.example.EngineTest.mossePossibili(EngineTest.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Coordinata{x=0, y=4}
+Coordinata{x=0, y=2}
+Coordinata{x=0, y=0}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
